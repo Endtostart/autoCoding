@@ -1,4 +1,4 @@
-##_**Auto Coding**_   
+# **_Auto Coding_**
 **用于自动生成代码的 _idea plugin_**
   
 **自动生成 bean copy 代码**
