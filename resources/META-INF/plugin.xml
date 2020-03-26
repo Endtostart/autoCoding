@@ -32,7 +32,7 @@
     <!-- Add your actions here -->
     <action id="beanCopy" class="idea.plugin.autocoding.action.BeanCopy" text="BeanCopy" description="生成bean copy代码">
       <add-to-group group-id="ToolsMenu" anchor="first"/>
-      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt N"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt K"/>
     </action>
   </actions>
 
