@@ -1,0 +1,39 @@
+<idea-plugin>
+  <id>autocoding</id>
+  <name>auto coding</name>
+  <version>1.0</version>
+  <vendor email="e_wangning@163.com"></vendor>
+
+  <description><![CDATA[
+      自动生成 bean copy代码.<br>
+      <em>bean copy</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      first.<br>
+      <em>v1.0.0</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="beanCopy" class="idea.plugin.autocoding.action.BeanCopy" text="BeanCopy" description="生成bean copy代码">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt N"/>
+    </action>
+  </actions>
+
+</idea-plugin>
