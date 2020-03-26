@@ -16,8 +16,8 @@ build -> prepare plugin moudle 'xxx' for deployment
 > **如何使用**
   
 假设输入如下代码：  
-```  
-java User user = new User();  
+```java
+User user = new User();  
 source
  ```  
  当前光标位置在***source***所在行，如何快捷键 **ctrl alt K** 即可生成如下代码  
